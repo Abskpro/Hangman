@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Hangman</title>
+  </head>
+  <body>
+    <h1><strong>Hangman</strong></h1>
+    <div class="game">
+      <div>
+        <canvas class="death" id="canvas" width="600px" height="500px">
+          your browser is chrome
+        </canvas>
+      </div>
+      <div class="word" id="guess"></div>
+    </div>
+    <div>
+        <label for="used-letter">Used Letters</label>
+        <ul id="letters-used">
+        </ul>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

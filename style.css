@@ -1,0 +1,37 @@
+html,body{
+    padding:0;
+}
+
+h1{
+    text-align:center;
+}
+
+.game{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction:column-reverse;
+    flex-wrap:wrap;
+}
+
+
+#canvas{
+    border:1px solid black;
+    text-align:center;
+}
+
+li{
+    list-style-type:none;
+}
+
+.word{
+    position:relative;
+    width:30%;
+    margin:20px;
+    display:flex;
+    justify-content:space-around
+}
+
+
+
+
