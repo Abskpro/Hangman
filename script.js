@@ -133,6 +133,11 @@ window.onload = function() {
           counter = counter + 1;
           break;
         default:
+              alert('game over')
+              let message = confirm('play again');
+              if(message == true){
+                  location.reload();
+              }
           console.log("gameover");
       }
     }
